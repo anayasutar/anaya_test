@@ -10,9 +10,10 @@
 
 terraform {
   backend "s3" {
-    bucket = "qa-backup-1020"
+    bucket = "qa-backup-1021"
     key    = "terraformstates/qa.tfstate"
     region = "ap-south-1"
   }
 }
+
 
